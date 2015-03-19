@@ -6,10 +6,15 @@
  * Manifest of language.
  *
  */
-$.language = {
-	LOGIN:{
-		signin: "Iniciar Sesión",
-		signin1: "Ingreso al sistema",
-		help: "Ayuda"
-	}
+$.language = {};
+
+$.language.LOGIN = {
+	signin: "Iniciar Sesión",
+	signin1: "Ingreso al sistema",
+	help: "Ayuda!!!",
+	welcome: "Bienvenido"
+}
+
+$.language.LMS = {
+	student: "Bienvenido estudiante: "
 }
