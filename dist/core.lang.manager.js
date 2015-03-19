@@ -15,7 +15,7 @@ $.fn.extend({
 				var p = c.match(/[\_]{2,2}@([\w-]{2,}):([\w-]{2,})+[\_]{2,2}/);
 				if(p){
 					c = c.substring(p.index+p[0].length, h.length);
-					h = h.replace(p[0], $.language[p[1]][p[2]]);
+					h = h.replace(p[0], $.language[p[1].toUpperCase()][p[2].toLowerCase()]);
 				}else
 					break;
 			}
