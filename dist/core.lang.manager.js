@@ -7,7 +7,7 @@
  *
  */
 $.fn.extend({
-	lang: function () {	
+	lang: function (e) {	
 		this.each(function(i, e) {
 			h = $(e).html();
 			var c = h;

@@ -8,19 +8,25 @@
 -->
 <script src="dist/core.lang.manager.js" type="text/javascript"></script>
 <script src="dist/core.lang.es-MX.js" type="text/javascript"></script>
-<title>Documento sin título</title>
+<title>__@EXAMPLE:title__</title>
 <script type="text/javascript">
 $(function() {
+	/* General */
  	$('div').lang();
-	$('div#object3').lang();
+	
+	/* Particular */
+	$('#object3').lang();
+	
+	/* Outer body */
+	$('title').lang();
 });
 </script>
 </head>
 <body>
-    <div id="object1"> Hola como __@LOGIN:help__ Por favor <b>__@LOGIN:signin__</b> </div>
-    <div id="object2"> Hola com Por favor <b>__@LOGIN:signin__</b> </div>
+    <div id="object2"><b>__@LOGIN:signin__</b> </div>
     <hr>
-    <div id="object3"><b>__@LMS:student__ Hans Von</b>
-    </div>
+    <label id="object3"><i>__@LMS:welcome_student__ <b>John Looke</b></i></label>
+    <hr>
+    <div id="object1">__@LOGIN:help__</div>
 </body>
 </html>

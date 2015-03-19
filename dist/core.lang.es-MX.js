@@ -10,11 +10,13 @@ $.language = {};
 
 $.language.LOGIN = {
 	signin: "Iniciar Sesión",
-	signin1: "Ingreso al sistema",
-	help: "Ayuda!!!",
-	welcome: "Bienvenido"
+	help: "Ayuda!!!"
 }
 
 $.language.LMS = {
-	student: "Bienvenido estudiante: "
+	welcome_student: "Bienvenido estudiante: "
+}
+
+$.language.EXAMPLE = {
+	title: "Ejemplo de uso"
 }
